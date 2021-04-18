@@ -1,0 +1,94 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e76e6e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1000px;
+}
+
+header {
+  background-image: url("G wagon (1).jpg");
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-height: calc(100vh - 102px);
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #eedf55;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.content .container h1 {
+  font-size: 4rem;
+  color: #50576e;
+}
+
+.content .container p {
+  font-size: 2.5rem;
+  color: #5fb33e;
+}
+
+.content .container a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: black;
+  margin-bottom: 0;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer li {
+  padding: 1rem;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
